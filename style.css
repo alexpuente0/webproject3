@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    padding: 1cm;
+    background-color:brown;
+    width:100%;
+    }
+
+.welcomesection {
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width:600px) {
+    body{
+    background-color:black;
+    }
+    .welcomesection {
+        background-color: blue;
+    }
+    .projects-section{
+        padding: 1cm
+    }
+    .nav {
+        display:flex;
+        flex-direction: column;
+
+    }
+}
+
