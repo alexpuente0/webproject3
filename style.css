@@ -47,13 +47,17 @@
 
 .project-tile{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     height: 25vh;
-    background-color: rgb(210, 203, 218);
-    flex-direction: column;
+    flex-direction: row;
     font: italic 300 25px  Arial, Helvetica, sans-serif;
     color:rgba(45, 149, 197, 0.932);
+}
+
+img{
+    max-width: 25vh;
+    align-items: center;
 }
 
 .contact{
